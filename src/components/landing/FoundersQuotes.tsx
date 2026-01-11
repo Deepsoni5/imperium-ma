@@ -6,13 +6,13 @@ import { Quote } from "lucide-react"
 export function FoundersQuotes() {
   const quotes = [
     {
-      text: "The speed and precision of Imperium's team allowed us to close our roll-up strategy 6 months ahead of schedule. Unparalleled expertise.",
+      text: "The speed and precision of MerzVia's team allowed us to close our roll-up strategy 6 months ahead of schedule. Unparalleled expertise.",
       author: "Marcus Thorne",
       role: "Managing Director, Global Tech Holdings",
       type: "Buyer"
     },
     {
-      text: "As a founder, I was looking for more than just a transaction. Imperium understood my vision and secured a legacy-defining exit.",
+      text: "As a founder, I was looking for more than just a transaction. MerzVia understood my vision and secured a legacy-defining exit.",
       author: "Elena Rodriguez",
       role: "Founder, BioStream Systems",
       type: "Founder"

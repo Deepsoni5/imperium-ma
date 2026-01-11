@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, ArrowUpRight } from "lucide-rea
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
-  
+
   return (
     <footer className="bg-luxe-black border-t border-white/5 pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6">
@@ -12,10 +12,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
               <span className="text-2xl font-serif font-bold tracking-tighter gold-gradient">
-                IMPERIUM
-              </span>
-              <span className="text-xs tracking-[0.3em] font-light text-zinc-400 mt-1 uppercase">
-                M&A
+                MerzVia
               </span>
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed max-w-xs">
@@ -62,33 +59,33 @@ export function Footer() {
           {/* Contact Details */}
           <div>
             <h4 className="text-white font-serif text-lg mb-6">Get in Touch</h4>
-              <ul className="space-y-4 text-sm">
-                <li className="flex gap-3 text-zinc-400">
-                  <Phone size={18} className="text-gold shrink-0" />
-                  <span>+91 90083 67818</span>
-                </li>
-                <li className="flex gap-3 text-zinc-400">
-                  <Mail size={18} className="text-gold shrink-0" />
-                  <span>imperium@support.com</span>
-                </li>
-                <li className="flex gap-3 text-zinc-400">
-                  <MapPin size={18} className="text-gold shrink-0" />
-                  <span>
-                    MADHYAVARTI SOLUTIONS PRIVATE LIMITED<br />
-                    NO:8, K.NO.13-3, 28TH CROSS,<br />
-                    HULIMAVU MAIN ROAD, Hulimavu,<br />
-                    Bangalore - 560076, Karnataka
-                  </span>
-                </li>
-              </ul>
-            </div>
+            <ul className="space-y-4 text-sm">
+              <li className="flex gap-3 text-zinc-400">
+                <Phone size={18} className="text-gold shrink-0" />
+                <span>+91 90083 67818</span>
+              </li>
+              <li className="flex gap-3 text-zinc-400">
+                <Mail size={18} className="text-gold shrink-0" />
+                <span>info@merzvia.com</span>
+              </li>
+              <li className="flex gap-3 text-zinc-400">
+                <MapPin size={18} className="text-gold shrink-0" />
+                <span>
+                  MADHYAVARTI SOLUTIONS PRIVATE LIMITED<br />
+                  NO:8, K.NO.13-3, 28TH CROSS,<br />
+                  HULIMAVU MAIN ROAD, Hulimavu,<br />
+                  Bangalore - 560076, Karnataka
+                </span>
+              </li>
+            </ul>
           </div>
-  
-          {/* Bottom Bar */}
-          <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-zinc-500 text-xs">
-              © {currentYear} Imperium M&A. All rights reserved.
-            </p>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-zinc-500 text-xs">
+            © {currentYear} MerzVia. All rights reserved.
+          </p>
 
           <div className="flex gap-8">
             <Link href="/privacy-policy" className="text-zinc-500 hover:text-white transition-colors text-xs">Privacy Policy</Link>

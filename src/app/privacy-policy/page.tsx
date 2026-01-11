@@ -6,21 +6,21 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-luxe-black text-white pt-32 pb-20 min-h-screen">
       <div className="container mx-auto px-6 max-w-4xl">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-serif mb-12 text-gold"
         >
           Privacy Policy
         </motion.h1>
-        
+
         <div className="prose prose-invert max-w-none space-y-8 text-zinc-400 font-light leading-relaxed">
-            <section>
-              <h2 className="text-2xl font-serif text-white mb-4">Introduction</h2>
-              <p>
-                At Imperium M&A, we are committed to protecting the privacy and confidentiality of our clients' information. This Privacy Policy outlines how we collect, use, and safeguard your data in the context of our M&A advisory services.
-              </p>
-            </section>
+          <section>
+            <h2 className="text-2xl font-serif text-white mb-4">Introduction</h2>
+            <p>
+              At MerzVia, we are committed to protecting the privacy and confidentiality of our clients' information. This Privacy Policy outlines how we collect, use, and safeguard your data in the context of our M&A advisory services.
+            </p>
+          </section>
 
 
           <section>

@@ -36,7 +36,7 @@ export function Process() {
             viewport={{ once: true }}
             className="text-gold text-xs uppercase tracking-[0.3em] mb-4"
           >
-            The Imperium Method
+            The MerzVia Method
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}

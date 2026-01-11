@@ -54,7 +54,7 @@ export function RollupDeals() {
               viewport={{ once: true }}
               className="text-zinc-400 text-lg mb-12 font-light leading-relaxed"
             >
-              Imperium M&A specializes in high-velocity roll-up strategies. We provide the infrastructure and expertise required to acquire and integrate multiple entities at scale, ensuring valuation multiples are maximized.
+              MerzVia specializes in high-velocity roll-up strategies. We provide the infrastructure and expertise required to acquire and integrate multiple entities at scale, ensuring valuation multiples are maximized.
             </motion.p>
           </div>
           <div className="lg:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-8">

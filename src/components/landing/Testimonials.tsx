@@ -6,7 +6,7 @@ import { Quote } from "lucide-react"
 export function Testimonials() {
   const testimonials = [
     {
-      quote: "Aurelius Capital's strategic depth and global network were instrumental in our successful exit. They didn't just find a buyer; they found the right partner for our legacy.",
+      quote: "MerzVia's strategic depth and global network were instrumental in our successful exit. They didn't just find a buyer; they found the right partner for our legacy.",
       author: "David Chen",
       role: "Founder, SolarNet Systems",
       deal: "$450M Exit"

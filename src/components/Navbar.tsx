@@ -46,11 +46,11 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-10 h-10 bg-gold flex items-center justify-center text-black font-serif font-bold text-xl rounded-sm group-hover:bg-gold-muted transition-colors">
-            I
+            M
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-xl font-serif font-bold tracking-tighter gold-gradient whitespace-nowrap">
-              IMPERIUM M&A
+            <span className="text-xl font-serif font-bold tracking-tighter gold-gradient whitespace-nowrap uppercase">
+              MerzVia
             </span>
           </div>
         </Link>

@@ -24,34 +24,34 @@ export default function AboutPage() {
   ]
 
   return (
-      <div className="bg-luxe-black text-white pt-32 pb-20 min-h-screen">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* Header */}
-          <div className="max-w-4xl mb-24">
-            <motion.p
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-gold text-xs uppercase tracking-[0.3em] mb-4"
-            >
-              Our Legacy
-            </motion.p>
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-5xl md:text-7xl font-serif mb-8 leading-tight"
-            >
-              Orchestrating the <br /> <span className="gold-gradient italic">Future of Global Business</span>
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="text-zinc-400 text-xl font-light leading-relaxed max-w-2xl"
-            >
-              Imperium M&A was founded on a single principle: that high-stakes M&A requires more than just financial expertise—it requires strategic artistry.
-            </motion.p>
-          </div>
+    <div className="bg-luxe-black text-white pt-32 pb-20 min-h-screen">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Header */}
+        <div className="max-w-4xl mb-24">
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-gold text-xs uppercase tracking-[0.3em] mb-4"
+          >
+            Our Legacy
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="text-5xl md:text-7xl font-serif mb-8 leading-tight"
+          >
+            Orchestrating the <br /> <span className="gold-gradient italic">Future of Global Business</span>
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-zinc-400 text-xl font-light leading-relaxed max-w-2xl"
+          >
+            MerzVia was founded on a single principle: that high-stakes M&A requires more than just financial expertise—it requires strategic artistry.
+          </motion.p>
+        </div>
 
 
         {/* Vision & Mission */}
@@ -70,7 +70,7 @@ export default function AboutPage() {
             />
             <div className="absolute inset-0 bg-gold/10 mix-blend-overlay" />
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}

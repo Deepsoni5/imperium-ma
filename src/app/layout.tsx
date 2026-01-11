@@ -7,20 +7,20 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Imperium M&A | Premium Mergers, Acquisitions & Strategic Advisory",
-  description: "The architectural force behind your legacy. Imperium M&A orchestrates high-stakes transactions for the world's most ambitious enterprises.",
-    icons: {
-      icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23050505%22/><path d=%22M30 25h40v10H55v40h15v10H30v-10h15V35H30z%22 fill=%22%23D4AF37%22/></svg>',
-    },
-    openGraph: {
-      title: "Imperium M&A | Elite Strategic Advisory",
-      description: "Orchestrating high-stakes transactions with precision and discretion.",
-      images: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"],
-      type: "website",
-    },
+  title: "MerzVia | Premium Mergers, Acquisitions & Strategic Advisory",
+  description: "The architectural force behind your legacy. MerzVia orchestrates high-stakes transactions for the world's most ambitious enterprises.",
+  icons: {
+    icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23050505%22/><path d=%22M20 75V25h10l20 30 20-30h10v50h-10V40L50 70 30 40v35z%22 fill=%22%23D4AF37%22/></svg>',
+  },
+  openGraph: {
+    title: "MerzVia | Elite Strategic Advisory",
+    description: "Orchestrating high-stakes transactions with precision and discretion.",
+    images: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"],
+    type: "website",
+  },
   twitter: {
     card: "summary_large_image",
-    title: "Imperium M&A | Elite Strategic Advisory",
+    title: "MerzVia | Elite Strategic Advisory",
     description: "Orchestrating high-stakes transactions with precision and discretion.",
   }
 };
@@ -48,7 +48,7 @@ export default function RootLayout({
           data-include-search-params="true"
           data-only-in-iframe="true"
           data-debug="true"
-          data-custom-data='{"appName": "AureliusCapital", "version": "1.0.0"}'
+          data-custom-data='{"appName": "MerzVia", "version": "1.0.0"}'
         />
         <Navbar />
         <main>{children}</main>

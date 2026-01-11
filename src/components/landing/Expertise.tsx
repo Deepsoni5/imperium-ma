@@ -13,16 +13,16 @@ export function Expertise() {
     "Bespoke advisory tailored to mid-market and enterprise complexities."
   ]
 
-    return (
-      <section className="py-32 bg-luxe-black">
-        <div className="w-[90%] lg:w-[85%] max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+  return (
+    <section className="py-32 bg-luxe-black">
+      <div className="w-[90%] lg:w-[85%] max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <p className="text-gold text-xs uppercase tracking-[0.3em] mb-4">Why Imperium</p>
+            <p className="text-gold text-xs uppercase tracking-[0.3em] mb-4">Why MerzVia</p>
             <h2 className="text-4xl md:text-5xl font-serif text-white mb-8 leading-tight">
               Unrivaled Insight. <br /> Uncompromising Standards.
             </h2>
@@ -38,7 +38,7 @@ export function Expertise() {
               ))}
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}

@@ -8,54 +8,54 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function ContactPage() {
   return (
-      <div className="pt-32 pb-20 bg-luxe-black min-h-screen">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center mb-20">
-            <motion.p
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-gold text-xs uppercase tracking-[0.3em] mb-4"
-            >
-              Connect With Us
-            </motion.p>
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-5xl md:text-6xl font-serif text-white mb-8"
-            >
-              Start Your Strategic <br /> <span className="gold-gradient italic">Consultation</span>
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="text-zinc-400 text-lg font-light leading-relaxed"
-            >
-              Our partners are ready to discuss your objectives with absolute discretion and precision. Reach out to explore how Imperium M&A can facilitate your next move.
-            </motion.p>
-          </div>
-  
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            {/* Contact Info & Map */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.3 }}
-              className="space-y-12"
-            >
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="p-8 bg-luxe-charcoal border border-white/5">
-                  <Phone className="text-gold mb-6" size={24} />
-                  <h3 className="text-white font-serif text-lg mb-2">Direct Line</h3>
-                  <p className="text-zinc-400 text-sm">+91 90083 67818</p>
-                </div>
-                <div className="p-8 bg-luxe-charcoal border border-white/5">
-                  <Mail className="text-gold mb-6" size={24} />
-                  <h3 className="text-white font-serif text-lg mb-2">Email Support</h3>
-                  <p className="text-zinc-400 text-sm">imperium@support.com</p>
-                </div>
+    <div className="pt-32 pb-20 bg-luxe-black min-h-screen">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-4xl mx-auto text-center mb-20">
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-gold text-xs uppercase tracking-[0.3em] mb-4"
+          >
+            Connect With Us
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="text-5xl md:text-6xl font-serif text-white mb-8"
+          >
+            Start Your Strategic <br /> <span className="gold-gradient italic">Consultation</span>
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-zinc-400 text-lg font-light leading-relaxed"
+          >
+            Our partners are ready to discuss your objectives with absolute discretion and precision. Reach out to explore how MerzVia can facilitate your next move.
+          </motion.p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          {/* Contact Info & Map */}
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3 }}
+            className="space-y-12"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="p-8 bg-luxe-charcoal border border-white/5">
+                <Phone className="text-gold mb-6" size={24} />
+                <h3 className="text-white font-serif text-lg mb-2">Direct Line</h3>
+                <p className="text-zinc-400 text-sm">+91 90083 67818</p>
               </div>
+              <div className="p-8 bg-luxe-charcoal border border-white/5">
+                <Mail className="text-gold mb-6" size={24} />
+                <h3 className="text-white font-serif text-lg mb-2">Email Support</h3>
+                <p className="text-zinc-400 text-sm">info@merzvia.com</p>
+              </div>
+            </div>
 
 
             <div className="p-8 bg-luxe-charcoal border border-white/5">
@@ -67,15 +67,15 @@ export default function ContactPage() {
                 HULIMAVU MAIN ROAD, Hulimavu,<br />
                 Bangalore South, Bangalore - 560076, Karnataka
               </p>
-              
+
               <div className="w-full aspect-video grayscale invert contrast-125 opacity-70 hover:opacity-100 transition-opacity">
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7778.901402925576!2d77.607355!3d12.878715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae152a98db83ad%3A0x19fef03a9fe461e7!2s8%20k%2C%2013%2C%2028th%20Cross%20Rd%2C%20Raghavendra%20Layout%2C%20Hanuman%20Nagar%2C%20Hulimavu%2C%20Bengaluru%2C%20Karnataka%20560076!5e0!3m2!1sen!2sin!4v1767703515407!5m2!1sen!2sin" 
-                  width="100%" 
-                  height="100%" 
-                  style={{ border: 0 }} 
-                  allowFullScreen 
-                  loading="lazy" 
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7778.901402925576!2d77.607355!3d12.878715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae152a98db83ad%3A0x19fef03a9fe461e7!2s8%20k%2C%2013%2C%2028th%20Cross%20Rd%2C%20Raghavendra%20Layout%2C%20Hanuman%20Nagar%2C%20Hulimavu%2C%20Bengaluru%2C%20Karnataka%20560076!5e0!3m2!1sen!2sin!4v1767703515407!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
