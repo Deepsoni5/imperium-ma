@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { Button } from "@/components/ui/button"
@@ -41,18 +42,18 @@ export function Navbar() {
   return (
     <motion.nav
       style={{ backgroundColor, backdropFilter: backdropBlur }}
-      className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 py-4 transition-all duration-300"
+      className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 h-20 transition-all duration-300"
     >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-gold flex items-center justify-center text-black font-serif font-bold text-xl rounded-sm group-hover:bg-gold-muted transition-colors">
-            M
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-xl font-serif font-bold tracking-tighter gold-gradient whitespace-nowrap uppercase">
-              MerzVia
-            </span>
-          </div>
+      <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
+        <Link href="/" className="relative w-48 md:w-64 h-full group">
+          <Image
+            src="/final_logo.png"
+            alt="MerzVia Logo"
+            width={300}
+            height={120}
+            className="absolute top-[57%] -translate-y-1/2 left-0 h-20 md:h-32 w-auto object-contain transition-all duration-500 group-hover:scale-105 drop-shadow-[0_0_15px_rgba(212,175,55,0.3)]"
+            priority
+          />
         </Link>
 
 

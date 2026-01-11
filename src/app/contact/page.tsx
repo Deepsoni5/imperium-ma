@@ -53,7 +53,7 @@ export default function ContactPage() {
               <div className="p-8 bg-luxe-charcoal border border-white/5">
                 <Mail className="text-gold mb-6" size={24} />
                 <h3 className="text-white font-serif text-lg mb-2">Email Support</h3>
-                <p className="text-zinc-400 text-sm">info@merzvia.com</p>
+                <p className="text-zinc-400 text-sm">wecare@merzvia.com</p>
               </div>
             </div>
 

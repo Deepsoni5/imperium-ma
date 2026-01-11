@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Mail, Phone, MapPin, Linkedin, Twitter, ArrowUpRight } from "lucide-react"
 
 export function Footer() {
@@ -11,9 +12,13 @@ export function Footer() {
           {/* Brand Column */}
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl font-serif font-bold tracking-tighter gold-gradient">
-                MerzVia
-              </span>
+              <Image
+                src="/final_logo.png"
+                alt="MerzVia Logo"
+                width={300}
+                height={120}
+                className="h-20 md:h-32 w-auto object-contain"
+              />
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed max-w-xs">
               Elite Mergers & Acquisitions firm specializing in high-value corporate transactions and strategic advisory for the global market.
@@ -66,7 +71,7 @@ export function Footer() {
               </li>
               <li className="flex gap-3 text-zinc-400">
                 <Mail size={18} className="text-gold shrink-0" />
-                <span>info@merzvia.com</span>
+                <span>wecare@merzvia.com</span>
               </li>
               <li className="flex gap-3 text-zinc-400">
                 <MapPin size={18} className="text-gold shrink-0" />

@@ -10,18 +10,21 @@ export const metadata: Metadata = {
   title: "MerzVia | Premium Mergers, Acquisitions & Strategic Advisory",
   description: "The architectural force behind your legacy. MerzVia orchestrates high-stakes transactions for the world's most ambitious enterprises.",
   icons: {
-    icon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23050505%22/><path d=%22M20 75V25h10l20 30 20-30h10v50h-10V40L50 70 30 40v35z%22 fill=%22%23D4AF37%22/></svg>',
+    icon: '/favicon_1.png',
+    shortcut: '/favicon_1.png',
+    apple: '/favicon_1.png',
   },
   openGraph: {
     title: "MerzVia | Elite Strategic Advisory",
     description: "Orchestrating high-stakes transactions with precision and discretion.",
-    images: ["https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"],
+    images: ["/favicon_1.png"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "MerzVia | Elite Strategic Advisory",
     description: "Orchestrating high-stakes transactions with precision and discretion.",
+    images: ["/favicon_1.png"],
   }
 };
 

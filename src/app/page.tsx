@@ -6,6 +6,7 @@ import { Transactions } from "@/components/landing/Transactions";
 import { RollupDeals } from "@/components/landing/RollupDeals";
 import { Process } from "@/components/landing/Process";
 import { Expertise } from "@/components/landing/Expertise";
+import { Industries } from "@/components/landing/Industries";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { FoundersQuotes } from "@/components/landing/FoundersQuotes";
 import { StrategicInsights } from "@/components/landing/StrategicInsights";
@@ -18,6 +19,7 @@ export default function Home() {
       <LogoWall />
       <Stats />
       <Services />
+      <Industries />
       <Transactions />
       <RollupDeals />
       <Process />
