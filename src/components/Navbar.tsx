@@ -31,7 +31,6 @@ export function Navbar() {
     { name: "Industries", href: "#industries" },
     { name: "Process", href: "#process" },
     { name: "About", href: "/about-us" },
-    { name: "Contact", href: "/contact" },
   ].map((link) => ({
     ...link,
     href:

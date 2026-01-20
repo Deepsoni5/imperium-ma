@@ -51,10 +51,15 @@ export function Footer() {
           <div>
             <h4 className="text-white font-serif text-lg mb-6">Company</h4>
             <ul className="space-y-4">
-              {["About Us", "Transactions", "Insights", "Methodology", "Contact Us"].map((item) => (
-                <li key={item}>
-                  <Link href={item === "Methodology" ? "/research-methodology" : `/${item.toLowerCase().replace(" ", "-")}`} className="text-zinc-400 hover:text-gold transition-colors text-sm">
-                    {item}
+              {[
+                { name: "About Us", href: "/about-us" },
+                { name: "Industries", href: "/#industries" },
+                { name: "Methodology", href: "/research-methodology" },
+                { name: "Contact", href: "/contact" }
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link href={link.href} className="text-zinc-400 hover:text-gold transition-colors text-sm">
+                    {link.name}
                   </Link>
                 </li>
               ))}
