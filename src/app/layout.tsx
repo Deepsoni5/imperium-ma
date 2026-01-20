@@ -7,8 +7,21 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "MerzVia | Premium Mergers, Acquisitions & Strategic Advisory",
-  description: "The architectural force behind your legacy. MerzVia orchestrates high-stakes transactions for the world's most ambitious enterprises.",
+  metadataBase: new URL("https://www.merzvia.com"),
+  title: {
+    default: "MerzVia | Premium Mergers, Acquisitions & Strategic Advisory",
+    template: "%s | MerzVia"
+  },
+  description: "The architectural force behind your legacy. MerzVia orchestrates high-stakes transactions for India's mid-market and global enterprises with precision and discretion.",
+  keywords: ["M&A Advisory India", "Mergers and Acquisitions", "Transaction Advisory", "Sell-Side Advisory", "Buy-Side Advisory", "Corporate Roll-Up Strategies", "Indian Mid-Market Advisory", "Boutique M&A Firm"],
+  authors: [{ name: "MerzVia" }],
+  creator: "MerzVia",
+  publisher: "MerzVia",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   icons: {
     icon: '/favicon_1.png',
     shortcut: '/favicon_1.png',
@@ -16,16 +29,37 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "MerzVia | Elite Strategic Advisory",
-    description: "Orchestrating high-stakes transactions with precision and discretion.",
-    images: ["/favicon_1.png"],
+    description: "Orchestrating high-stakes transactions with precision and discretion. The premier transaction advisory for India’s Mid-Market.",
+    url: "https://www.merzvia.com",
+    siteName: "MerzVia",
+    images: [
+      {
+        url: "/favicon_1.png",
+        width: 1200,
+        height: 630,
+        alt: "MerzVia | Strategic Advisory",
+      },
+    ],
+    locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "MerzVia | Elite Strategic Advisory",
-    description: "Orchestrating high-stakes transactions with precision and discretion.",
+    description: "Orchestrating high-stakes transactions with precision and discretion. India's premier boutique M&A firm.",
     images: ["/favicon_1.png"],
-  }
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -56,6 +90,28 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "MerzVia",
+              "url": "https://www.merzvia.com",
+              "logo": "https://www.merzvia.com/final_logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-90083-67818",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": "en"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/merzvia"
+              ]
+            })
+          }}
+        />
         <VisualEditsMessenger />
       </body>
     </html>

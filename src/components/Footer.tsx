@@ -39,7 +39,7 @@ export function Footer() {
             <ul className="space-y-4">
               {["Sell-side M&A", "Buy-side M&A", "Capital Raising", "Valuation Services", "Strategic Advisory"].map((item) => (
                 <li key={item}>
-                  <Link href="#" className="text-zinc-400 hover:text-gold transition-colors text-sm flex items-center gap-2 group">
+                  <Link href="/services" className="text-zinc-400 hover:text-gold transition-colors text-sm flex items-center gap-2 group">
                     {item} <ArrowUpRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                   </Link>
                 </li>
@@ -51,9 +51,9 @@ export function Footer() {
           <div>
             <h4 className="text-white font-serif text-lg mb-6">Company</h4>
             <ul className="space-y-4">
-              {["About Us", "Our Team", "Transactions", "Insights", "Contact Us"].map((item) => (
+              {["About Us", "Transactions", "Insights", "Methodology", "Contact Us"].map((item) => (
                 <li key={item}>
-                  <Link href={`/${item.toLowerCase().replace(" ", "-")}`} className="text-zinc-400 hover:text-gold transition-colors text-sm">
+                  <Link href={item === "Methodology" ? "/research-methodology" : `/${item.toLowerCase().replace(" ", "-")}`} className="text-zinc-400 hover:text-gold transition-colors text-sm">
                     {item}
                   </Link>
                 </li>

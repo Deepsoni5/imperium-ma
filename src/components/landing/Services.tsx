@@ -1,6 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 import { Briefcase, TrendingUp, BarChart4, Globe, ShieldCheck, Users } from "lucide-react"
 
 export function Services() {
@@ -85,6 +87,19 @@ export function Services() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-20 text-center"
+        >
+          <Link href="/services">
+            <Button size="lg" variant="outline" className="border-gold/50 text-gold hover:bg-gold hover:text-black rounded-none px-12 h-14 transition-all duration-300">
+              Explore Our Detailed Service Pillars
+            </Button>
+          </Link>
+        </motion.div>
       </div>
     </section>
   )

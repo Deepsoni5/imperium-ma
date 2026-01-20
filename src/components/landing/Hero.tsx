@@ -39,19 +39,22 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-7xl lg:text-8xl font-serif mb-8 leading-[1.1] tracking-tight"
+          className="text-4xl md:text-6xl lg:text-7xl font-serif mb-8 leading-[1.2] tracking-tight"
         >
-          The Architectural Force <br />
-          <span className="gold-gradient italic font-normal">Behind Your Legacy</span>
+          Architects of Value. <br />
+          <span className="gold-gradient italic font-normal">Strategists of Legacy.</span>
+          <span className="block text-2xl md:text-3xl lg:text-4xl mt-6 font-sans font-light tracking-wide text-zinc-300">
+            The Premier Transaction Advisory for India’s Mid-Market.
+          </span>
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-zinc-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 leading-relaxed font-light"
+          className="text-zinc-400 text-lg md:text-xl max-w-4xl mx-auto mb-12 leading-relaxed font-light"
         >
-          MerzVia orchestrates high-stakes M&A transactions for the world's most ambitious enterprises. Precision, discretion, and unparalleled strategic advantage.
+          Navigating the complexities of private mergers, corporate consolidations, and strategic transitions. A non-regulated, pure-play advisory firm dedicated to the Indian Promoter.
         </motion.p>
 
         <motion.div
