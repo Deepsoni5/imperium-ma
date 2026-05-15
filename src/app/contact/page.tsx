@@ -91,7 +91,7 @@ export default function ContactPage() {
               <div className="p-8 bg-luxe-charcoal border border-white/5">
                 <Phone className="text-gold mb-6" size={24} />
                 <h3 className="text-white font-serif text-lg mb-2">Direct Line</h3>
-                <p className="text-zinc-400 text-sm font-medium">+91 90083 67818</p>
+                <p className="text-zinc-400 text-sm font-medium">+91 8431767538</p>
               </div>
               <div className="p-8 bg-luxe-charcoal border border-white/5">
                 <Mail className="text-gold mb-6" size={24} />
